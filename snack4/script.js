@@ -8,7 +8,7 @@ const shorterArray = [1, 2, 3, 4, 5];
 const longerArray = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
 
 while(shorterArray.length < longerArray.length){
-    let addition = Math.floor(Math.random() * (10 - 5 + 1) + 5);
-    shorterArray.push(addition)
-    console.log(shorterArray)
+    let number = Math.floor(Math.random() * (10 - 5 + 1) + 5);
+    shorterArray.push(number);
+    console.log(shorterArray);
 }
